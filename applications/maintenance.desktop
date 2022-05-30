@@ -5,4 +5,4 @@ Type=Application
 Terminal=false
 Exec=/usr/bin/chromium-browser  --kiosk --app=http://localhost:8080
 Name=Maintenance
-Icon=/usr/local/handddle/applications/logos/handddle_logo.png
+Icon=/usr/local/handddle/applications/logos/maintenance.png
