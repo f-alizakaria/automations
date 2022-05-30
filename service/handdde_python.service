@@ -1,0 +1,13 @@
+[Unit]
+Description=Lancement automatique du python
+StartLimitBurst=5
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /usr/local/handddle/handddle_jetson_python/farm_manager.py
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target

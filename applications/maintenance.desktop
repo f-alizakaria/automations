@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/usr/bin/chromium-browser  --kiosk --app=http://localhost:8080
+Name=Maintenance
+Icon=/usr/local/handddle/applications/logos/handddle_logo.png

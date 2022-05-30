@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=chromium-browser --kiosk --app=https://beta.handddle.com
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[fr_FR]=start handddle app
+Name=start app
+Comment[fr_FR]=
+Comment=
