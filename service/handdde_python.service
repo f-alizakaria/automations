@@ -1,5 +1,5 @@
 [Unit]
-Description=Lancement automatique du python
+Description=Automatic launch of the Farm Manager
 StartLimitBurst=5
 StartLimitIntervalSec=0
 
