@@ -15,7 +15,7 @@ StartLimitIntervalSec=0
 
 [Service]
 Type=simple
-
+WorkingDirectory=/usr/local/handddle/handddle_jetson_python
 ExecStart=/usr/bin/python3 /usr/local/handddle/handddle_jetson_python/farm_manager.py
 
 # NOTES ABOUT THE Restart=always OPTION:
