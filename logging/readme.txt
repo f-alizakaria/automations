@@ -1,5 +1,5 @@
 Dans le fichier python :
- - modifier le LOG_FILE -> emplacement du fichier log, mettre par ex : "/var/log/dossier/nom_du_fichier.log"
+ - modifier le LOG_FILE -> emplacement du fichier log, mettre par ex : "/var/log/handddle_python_logging/farm_manager/farm_manager.log"
  - modifier le file_logger -> mettre le nom souhaité
  
  
