@@ -1,13 +1,13 @@
 Créer le fichier service dans : /etc/systemd/system
 
 Activer le service avec : 
-sudo systemctl enable handddle-python.service
+sudo systemctl enable handddle_python.service
 
 Démarrer le service :  
-sudo systemctl start handddle-python.service
+sudo systemctl start handddle_python.service
 
 Possibilité de le stopper : 
-sudo systemctl stop handddle-python.service
+sudo systemctl stop handddle_python.service
 
 
 Le service redémarre tout seul s'il y a une erreur
