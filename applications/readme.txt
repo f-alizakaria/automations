@@ -1,4 +1,4 @@
-PATH = /usr/local/handddle
+PATH = /usr/local/handddle/applications/
 
 
 Raccourcis sur le bureau pour accéder sous forme d'application à la page de l'app en cas de pb : (handddle.desktop) en plein écran sans possibilité de supprimer le plein écran (sauf ALT+F4). Pareil pour la page localhost:8080 (maintenance.desktop)
