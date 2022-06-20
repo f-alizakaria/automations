@@ -3,6 +3,8 @@ Dans le fichier python :
  - modifier le file_logger -> mettre le nom souhaité
  
  
+ import logging
+ from logging.handlers import TimedRotatingFileHandler
 
 LOG_FILE = ""
 FORMATTER = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s: %(message)s")
