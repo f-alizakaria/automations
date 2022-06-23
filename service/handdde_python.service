@@ -16,7 +16,10 @@ StartLimitIntervalSec=0
 [Service]
 Type=simple
 WorkingDirectory=/usr/local/handddle/handddle_jetson_python
+ExecCondition=/usr/bin/sh -c 'exit 0'
+ExecStartPre=/usr/bin/sh 'bash_scripts/check_stm.sh' 
 ExecStart=/usr/bin/python3 /usr/local/handddle/handddle_jetson_python/farm_manager.py
+After=multi-user.target
 
 # NOTES ABOUT THE Restart=always OPTION:
 # By default, when you configure Restart=always systemd gives up
