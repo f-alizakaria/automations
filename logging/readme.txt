@@ -1,5 +1,5 @@
 Dans le fichier python :
- - modifier le LOG_FILE -> emplacement du fichier log, mettre par ex : "/var/log/handddle_python_logging/farm_manager/farm_manager.log"
+ - modifier le LOG_FILE -> emplacement du fichier log, mettre par ex : "/var/log/handddle_jetson_python/farm_manager/farm_manager.log"
  - modifier le file_logger -> mettre le nom souhaité
  
  
@@ -26,3 +26,22 @@ file_logger.propagate = False
 pour 'logger' :
  - file_logger.info('------------------------------')
  - info / warning / debug / critical / error
+
+
+
+
+
+Creer les dossiers suivants (/var/log/handddle_jetson_python/):
+- client
+- commands
+- datas
+- demo
+- farm_manager
+- gui
+- master
+- message
+- scanner
+- server
+- slave
+- tlv_message
+- watchdog
