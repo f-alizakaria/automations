@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=chromium-browser --kiosk --app=https://beta.handddle.com
+Exec=/usr/bin/google-chrome --kiosk --app=https://beta.handddle.com
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
