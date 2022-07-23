@@ -83,7 +83,7 @@ def modifyDesktopFile(file):
 
 def getHandddleJetsonPythonScript():
     if not os.path.isdir(findPathFileOrDir('handddle_jetson_python', '/usr/local')):
-        os.system(f"git clone http://github.com/pierremrg/handddle_jetson_python {findPathFileOrDir('handddle', '/usr/local')}/handddle_jetson_python")
+        os.system(f"git clone http://github.com/pierremrg/handddle_jetson_python -q {findPathFileOrDir('handddle', '/usr/local')}/handddle_jetson_python")
 
     # Modify and add bash script into folder
     with fileinput.FileInput(findPathFileOrDir('check_stm.sh'), inplace=True, backup='.bak') as file:
