@@ -1,4 +1,4 @@
-FILE=/media/ab/NOD_F446RE
+FILE=/media/<user>/NOD_F446RE
 if [ -d "$FILE" ]; then
     echo "$FILE is a directory."
     exit 0

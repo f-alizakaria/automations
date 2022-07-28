@@ -63,7 +63,7 @@ def moveServiceFile():
 
 
 def emptyTrash():
-    os.system("rm -rf /home/ab/.local/share/Trash/*")
+    os.system(f"rm -rf /home/{sys.argv[1]}/.local/share/Trash/*")
 
 
 def modifyDesktopFile(file):
