@@ -14,8 +14,7 @@ elif [ `find /home/"$1" -name Desktop` ]; then
 fi
 
 
-if [ -z "$1" ] # if no parameter
-  then
+if [ "$#" -ne 2 ]; then
     echo "\nVeuillez respecter la synthaxe:\n\tsh ./setup.sh <profile_name> <app_url>\n"
     exit
   else
