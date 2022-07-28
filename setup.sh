@@ -16,7 +16,7 @@ fi
 
 if [ -z "$1" ] # if no parameter
   then
-    echo "\nVeuillez respecter la synthaxe:\n\tsh ./setup.sh <profile_name>\n"
+    echo "\nVeuillez respecter la synthaxe:\n\tsh ./setup.sh <profile_name> <app_url>\n"
     exit
   else
     echo "\nLa cnfiguration ne prendra que quelques secondes.\nVeuillez patienter.\n"
