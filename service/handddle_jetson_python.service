@@ -1,5 +1,6 @@
 [Unit]
 Description=Automatic launch of the Farm Manager
+After=multi-user.target
 
 # NOTES ABOUT THE StartLimitBurst OPTION:
 # systemd default is StartLimitBurst=5 (give up after 5 failed attempts)
@@ -19,7 +20,6 @@ WorkingDirectory=/usr/local/handddle/handddle_jetson_python
 ExecCondition=/bin/sh -c 'exit 0'
 ExecStartPre=/bin/sh 'bash_scripts/check_stm.sh' 
 ExecStart=/usr/bin/python3 /usr/local/handddle/handddle_jetson_python/farm_manager.py
-After=multi-user.target
 
 # NOTES ABOUT THE Restart=always OPTION:
 # By default, when you configure Restart=always systemd gives up
